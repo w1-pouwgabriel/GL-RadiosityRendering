@@ -96,8 +96,8 @@ int main()
         glm::vec3(-2.0f, 0.0f, -5.0f),  // Left wall
         glm::vec3(2.0f, 0.0f, -5.0f),   // Right wall
         glm::vec3(0.0f, 0.0f, -7.0f),   // Back wall
-        glm::vec3(0.4f, -0.7f, -5.5f), // Tall cube
-        glm::vec3(0.4f, -0.7f, -4.0f), // Small cube
+        glm::vec3(0.6f, -0.7f, -5.5f), // Tall cube
+        glm::vec3(-0.6f, -0.7f, -5.0f), // Small cube
     };
 
     glm::vec3 cubeScales[7] =
@@ -107,8 +107,8 @@ int main()
         glm::vec3(1.0f, 10.0f, 10.0f),    // Left wall
         glm::vec3(1.0f, 10.0f, 10.0f),    // Right wall
         glm::vec3(10.0f, 10.0f, 1.0f),    // Back wall
-        glm::vec3(0.2f, 0.7f, 0.2f),    // Tall cube
-        glm::vec3(0.1f, 0.1f, 0.1f),    // Small cube
+        glm::vec3(0.3f, 0.85f, 0.3f),    // Tall cube
+        glm::vec3(0.3f, 0.3f, 0.3f),    // Small cube
     };
 
     std::pair<float, glm::vec3> cubeRotations[7] =
@@ -119,7 +119,7 @@ int main()
         std::pair<float, glm::vec3>(0.0f, glm::vec3(0,1,0)),    // Right wall
         std::pair<float, glm::vec3>(0.0f, glm::vec3(0,1,0)),    // Back wall
         std::pair<float, glm::vec3>(0.8f, glm::vec3(0,1,0)),    // Tall cube
-        std::pair<float, glm::vec3>(0.0f, glm::vec3(0,1,0)),    // Small cube
+        std::pair<float, glm::vec3>(-0.8f, glm::vec3(0,1,0)),    // Small cube
     };
 
     float grey = 211.0f / 255.0f;
